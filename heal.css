@@ -1,1 +1,219 @@
+body {
+  background: url('https://i.ibb.co/98tF87w/chevron.png');
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
 
+	.All {
+  position: absolute;
+  background: url('https://i.ibb.co/98tF87w/chevron.png');
+  width: 100%;
+  height: 800px;
+  left: 0;
+  top: 0;
+}
+
+   .Top {
+  position: absolute;
+  background-color: #fcfcfc;
+  width: 500px;
+  height: 500px;
+  margin-left: -305px!important;
+  border: 1px solid #ededed;
+  left: 50%;
+  top: 80px;
+}
+
+     .User{
+  position: absolute;
+  background-color: transparent;
+  font: bold 40pt century gothic;
+  color: #2e3641;
+  width: 20px;
+  height: 20px;
+  margin-left:-309px!important;
+  left: 50%;
+  top: 25px;
+   -webkit-transition: all 0.7s ease;
+   -moz-transition: all 0.7s ease;
+   -o-transition: all 0.7s ease;
+   -ms-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+
+ .User:hover {
+  background-color:transparent!important;
+  color: #ffd9e5!important;
+}
+
+    .H{
+  position: absolute;
+  background-color: transparent;
+  font: bold 5pt century gothic;
+  letter-spacing: 2px;
+  color: #2e3641;
+  width: 140px;
+  height: 20px;
+  margin-left:-270px!important;
+  left: 50%;
+  top: 70px;
+   -webkit-transition: all 0.7s ease;
+   -moz-transition: all 0.7s ease;
+   -o-transition: all 0.7s ease;
+   -ms-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+ .H:hover {
+  background-color:transparent!important;
+  color: #ffd9e5!important;
+}
+	.Contact {
+  position: absolute;
+  background-color: transparent;
+  width: 80px;
+  height: 300px;
+  margin-left:190px!important;
+  left: 50%;
+  top: 75px;
+  text-align: left;
+}
+	.Contact a:link, .Contact a:visited, .Contact a:active {
+  display: block;
+  background-color: #2e3641!important;
+  font: bold 5pt century gothic;
+   line-height:20px;
+  text-align: right;
+  color: #fff!important;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  width: 58px!important;
+  height: 25px!important;
+  margin-top: 6px;
+  padding-right: 4px;
+  border: 1px #;
+   -webkit-transition: all 0.7s ease;
+   -moz-transition: all 0.7s ease;
+   -o-transition: all 0.7s ease;
+   -ms-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+	.Contact a:hover {
+  background-color:#2e3641!important;
+  color: #fff!important;
+  font-weight:bold;
+  letter-spacing: 1px;
+  width: 70px!important;
+  text-align: right;
+  padding-right: 4px;
+}
+	.DP {
+  position: absolute;
+  border-radius: 100%;
+  background-image: url(https://www.imvu.com/catalog/web_av_pic.php?u=29532350);
+  width: 160px;
+  height: 160px;
+  left: 50%;
+  margin-left: -288px!important;
+  top: 90px;
+  border: 2px solid #ffd9e5;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+	.DP:hover {
+  position: absolute;
+  border-radius: 100%;
+  background-image: url(https://www.imvu.com/catalog/web_av_pic.php?u=29532350);  
+  width: 160px;
+  height: 160px;
+ border: 2px solid #2e3641;
+}
+        .Box{
+  position: absolute;
+ background-color: #fafafa;
+  width: 500px;
+  height: 288px;
+  left: 50%;
+  margin-left: -304px!important;
+  top: 293px;
+}
+
+      .Box1{
+  position: absolute;
+ background-color: #fafafa;
+  width: 290px;
+  height: 145px;
+  left: 50%;
+  margin-left: -105px!important;
+  top: 100px;
+}
+	.Credit {
+  position: fixed;
+  bottom: 0px!important;
+  width:100%;
+  height: 5px;
+  background-color: #000;
+  font-family: century gothic;
+  color: #cf4775;
+  font-weight: bold;
+  font-size: 5pt;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  margin-top: 10px;
+}
+
+.Credit {
+  position: fixed;
+  bottom: 0px!important;
+  width:100%;
+  height: 5px;
+  background-color: #fff;
+  font-family: century gothic;
+  color: #000;
+  font-weight: bold;
+  font-size: 5pt;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  margin-top: 10px;
+}
+
+	#rightColumn {
+  display:none !important;
+}
+
+	#video_panel {
+  top:0;
+  left:0!important;
+  width:100%!important;
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+	#footerBanner  { display:none !important;}
+	#ft_links2 { display:none !important;}
+	#top_links { display:none !important;}
+	#ft_links3 { display:none !important;}
+ 	#copyright { display:none !important;}
+	#video_panel_colRow, .imvucodes_net { display:none !important;}
+	#video_panel_header,.imvucodes_net { display:none;}
+	.paneltitle, .panelmenu, .imvucodes_net { display:none !important;}
+	#aboutme_panel, #contact_panel,
+	#dev_panel, #wishlist_panel,
+	#messages_panel, #tagcloud_panel, #stickers_panel,
+	#collect_panel,  #room_panel, #rankings_panel,
+	#cool_panel, #gallery_panel, #friends_panel,
+	#streetteam_panel, #blog_panel, #music_panel, #rss_panel, #url_panel,
+	#special_panel,#outfits_panel, {display: none!important;}
